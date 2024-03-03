@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+header{
+  display: flex;
+  background-color: rgba(55, 23, 3, 0.873);
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header a i{
+  color: white;
+  font-size: 3em;
+  padding: 0.5em;
+
+}
+
+header nav ul{
+display: flex;
+gap: 1.1em;
+margin-right: 50px;
+
+}
+
+header nav ul li a{
+  color: white;
+  
+  }
